@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitagoras</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #e2d51f;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: left;
+            gap: 20px;/*https://nekocalc.com/px-to-rem-converter*/
+        }
+
+
+        .imagem_leo {
+            grid-column-start: 1;
+            grid-column-end: 3;
+           
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #e2d51f;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #e2d51f;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #e2d51f 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #e2d51f;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .imagem_leo {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        
+        <h1 style="color: white; text-align: center;">Pitágoras</h1>
+        
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">História</a></li>
+            <li><a href="escola.html">Escola Pitagórica</a></li>
+            <li><a href="descobertas.html">Principais descobertas</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_pita">
+            <img src="busto.jpg">
+            <div class="infos">
+                <p><strong>Pythagóras</strong><br><strong>Filósofo e Matemático</strong></p>
+                <p><strong>Data do Nascimento:</strong>ca. 571 a.C. - 570 a.C.</p>
+                <p><strong>Data da Morte:</strong> 	ca. 500 a.C. - 490 a.C. (ca. 70-81 anos)</p>
+            </div>
+
+        </aside>
+        <section class="principal">
+            <h1>
+                Pitágoras
+            </h1>
+            <p>Pitágoras é conhecido como o primeiro matemático puro. Ele nasceu na ilha de Samos, Grécia, em 569 AC. Vários escritos situam sua morte entre 500 aC e 475 aC em Metaponto, Lucânia, Itália. Seu pai, Mnesarchus, era um comerciante de pedras preciosas. O nome de sua mãe era Pythais. Pitágoras tinha dois ou três irmãos. Na verdade pouco se sabe sobre a vida de Pitágoras.Pitágoras foi bem educado e tocou lira durante toda a vida, conhecia poesia e recitava Homero. Ele se interessou por matemática, filosofia, astronomia e música, e foi muito influenciado por Ferekydes (filosofia), Tales (matemática e astronomia) e Anaximandro (filosofia, geometria).Ele fundou a Escola Pitagórica. Muitos consideram uma seita, que misturava Matemática, Filosofia, Astronomia e Música em uma doutrina religiosa, buscava a purificação da alma por meio do conhecimento e do pensamento.Existem várias versões sobre a morte de Pitágoras; existe uma teoria que alguns homens, por serem recusados a fazerem parte da Escola fundada por Pitágoras, resolveram incendiar sua casa com ele dentro, mas a versão mais aceita, que remota a época de Platão, é a que Pitágoras fugiu desses pretendentes a discípulos, que de fato existiram, alcançou Metaponto (a cidade) e lá, acreditando que oitenta anos era suficiente tempo de vida, deixou-se de alimentar durante 40 dias, vindo a morrer de inanição. 
+
+               
+        </section>
+    </div>
+    <footer class="container">
+      <h2 style="color: white; text-align: center;">"Tudo é número"</h2>
+   
+        
+    </footer>
+    </div>
+</body>
+</html>
