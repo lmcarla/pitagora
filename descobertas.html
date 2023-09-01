@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitagoras</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #e2d51f;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: left;
+            gap: 20px;/*https://nekocalc.com/px-to-rem-converter*/
+        }
+
+
+        .imagem_leo {
+            grid-column-start: 1;
+            grid-column-end: 3;
+           
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #e2d51f;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #e2d51f;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #e2d51f 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #e2d51f;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .imagem_leo {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        
+        <h1 style="color: white; text-align: center;">Pitágoras</h1>
+        
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">História</a></li>
+            <li><a href="escola.html">Escola Pitagórica</a></li>
+            <li><a href="descobertas.html">Principais descobertas</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_pita">
+            <img src="busto.jpg">
+            <div class="infos">
+                <p><strong>Pythagóras</strong><br><strong>Filósofo e Matemático</strong></p>
+                <p><strong>Data do Nascimento:</strong>ca. 571 a.C. - 570 a.C.</p>
+                <p><strong>Data da Morte:</strong> 	ca. 500 a.C. - 490 a.C. (ca. 70-81 anos)</p>
+            </div>
+
+        </aside>
+        <section class="principal">
+            <h1>Principais descobertas</h1>
+            <h3>Teorema de Pitágoras</h3>
+            <p> O Teorema de Pitágoras, em síntese, faz uma relação entre o comprimento dos lados de um triângulo retângulo. Nesse caso, trata-se de uma figura geométrica formada por um ângulo reto, que é um ângulo interno de 90°.<br>
+ “A soma dos quadrados dos seus catetos é igual ao quadrado de sua hipotenusa.” A teoria conta com diversas aplicações no mundo moderno, principalmente nas áreas de construção, arquitetura e urbanismo.<br>
+A base desse teorema já era conhecido nos territórios babilônios mil anos antes de Pitágoras. No entanto, o matemático foi o grande responsável por demonstrar a teoria e criar seus algoritmos gerais.</p>
+            <h3>Números Perfeitos</h3>
+            <p>A soma dos divisores de determinado número com exceção dele mesmo, é o próprio número. Exemplos:
+
+                Os divisores de 6 são: 1,2,3 e 6. Então, 1+2+3=6. <br>
+                Os divisores de 28 são: 1,2,4,7,14 e 28. Então, 1+2+4+7+14=28.</p>
+            <h3>Música</h3>
+            <p>A Escala diatônica, tão utilizada no mundo ocidental atualmente (dó, ré, mí, fá, sol, lá, sí, dó) origina-se justamente de seus estudos. Além disso, ele criou um instrumento de cordas, baseado nesta escala,o monocordo, que é considerado o pai dos instrumentos de corda que existem hoje em dia, como o violão.</p>
+        </section>
+    </div>
+    <footer class="container">
+      <h2 style="color: white; text-align: center;">"Tudo é número"</h2>
+   
+        
+    </footer>
+    </div>
+</body>
+</html>
