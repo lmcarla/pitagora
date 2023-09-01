@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitagoras</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #e2d51f;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: left;
+            gap: 20px;/*https://nekocalc.com/px-to-rem-converter*/
+        }
+
+
+        .imagem_leo {
+            grid-column-start: 1;
+            grid-column-end: 3;
+           
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #e2d51f;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #e2d51f;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #e2d51f 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #e2d51f;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .imagem_leo {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        
+        <h1 style="color: white; text-align: center;">Pitágoras</h1>
+        
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">História</a></li>
+            <li><a href="escola.html">Escola Pitagórica</a></li>
+            <li><a href="descobertas.html">Principais descobertas</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_pita">
+            <img src="busto.jpg">
+            <div class="infos">
+                <p><strong>Pythagóras</strong><br><strong>Filósofo e Matemático</strong></p>
+                <p><strong>Data do Nascimento:</strong>ca. 571 a.C. - 570 a.C.</p>
+                <p><strong>Data da Morte:</strong> 	ca. 500 a.C. - 490 a.C. (ca. 70-81 anos)</p>
+            </div>
+
+        </aside>
+        <section class="principal">
+            <h1>Escola Pitagórica</h1>
+            <p>A Escola Pitagórica, fundada por Pitágoras, foi uma influente corrente da filosofia grega à qual pertenciam alguns dos mais antigos filósofos pré-socráticos. A mestra de Pitágoras foi Temistocléia, alta profetisa, filósofa e matemática.Outros pensadores importantes dessa escola: Filolau, Arquitas, Alcmeão; a matemática e física Teano, possivelmente casada com Pitágoras, a filósofa Melissa.
+Esses pensadores manifestam ao mesmo tempo tendências místico-religiosas e tendências científico-racionais. A influência estende-se até nossos dias.<br>Os pitagóricos foram muito importantes no desenvolvimento da matemática grega. A própria palavra “matemática” surgiu com os pitagóricos (mathematikós, em grego), com a concepção de um sistema de pensamento em bases dedutíveis, e deles advêm o conhecido aforisma de que “a matemática é o alfabeto com o qual os deuses escreveram o universo”. Até então, a geometria e a aritmética tinham um caráter utilitário, intuitivo, fulcrado em problemas práticos, sendo fruto dos pitagóricos a classificação dos números em pares, ímpares, primos e racionais (estes são todos os números que podem ser representados na forma de fração). Também dos pitagóricos advêm estudos sistematizados de alguns poliedros e polígonos regulares, sobre proporções, números decimais e a seção áurea ou divina.</p>
+           
+        </section>
+    </div>
+    <footer class="container">
+      <h2 style="color: white; text-align: center;">"Tudo é número"</h2>
+   
+        
+    </footer>
+    </div>
+</body>
+</html>
